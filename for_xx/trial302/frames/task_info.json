@@ -1,0 +1,75 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "location": "(0.745, 0.49)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 5,
+            "object": 57,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.402, 0.32)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 7,
+            "object": 4,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.827, 0.549)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 6,
+            "object": 10,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.53, 0.278)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 5,
+            "object": 62,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.267, 0.477)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 1,
+            "object": 20,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, delay, observe object 5, if location of object 2 equal bottom left , then location of object 5 not equal top left or category of object 3 not equal benches , else location of object 1 not equal location of object 4 ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

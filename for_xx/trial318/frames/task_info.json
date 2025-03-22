@@ -1,0 +1,75 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "location": "(0.174, 0.433)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 1,
+            "object": 22,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.363, 0.659)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 7,
+            "object": 2,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.979, 0.052)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 4,
+            "object": 26,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.177, 0.877)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 5,
+            "object": 58,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.072, 0.148)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 3,
+            "object": 39,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, delay, observe object 5, if category of object 3 equal cars , then category of object 4 equal tables or location of object 5 not equal location of object 2 , else location of object 1 equal top left ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}

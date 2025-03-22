@@ -1,0 +1,87 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "location": "(0.914, 0.86)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 0,
+            "object": 53,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.81, 0.796)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 7,
+            "object": 1,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.153, 0.016)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 4,
+            "object": 27,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.061, 0.236)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 3,
+            "object": 33,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.296, 0.061)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 7,
+            "object": 2,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.261, 0.268)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 0,
+            "object": 51,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, if category of object 2 equal benches , then category of object 5 equal category of object 4 , else category of object 6 not equal category of object 1 or category of object 3 equal chairs ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

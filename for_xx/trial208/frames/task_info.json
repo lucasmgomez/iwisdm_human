@@ -1,0 +1,112 @@
+{
+    "epochs": 8,
+    "objects": [
+        {
+            "location": "(0.288, 0.977)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 0,
+            "object": 48,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.78, 0.91)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 1,
+            "object": 20,
+            "view angle": 0,
+            "epochs": 1,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.1, 0.043)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 0,
+            "object": 51,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.24, 0.246)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 5,
+            "object": 62,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.742, 0.833)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 5,
+            "object": 57,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.749, 0.845)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 5,
+            "object": 57,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.425, 0.221)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 4,
+            "object": 29,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.24, 0.633)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 6,
+            "object": 11,
+            "view angle": 0,
+            "epochs": 7,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, observe object 7, observe object 8, if object of object 2 equal object of object 8 , then object of object 5 equal object of object 6 and object of object 3 equal object of object 4 , else object of object 1 equal object of object 7 ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

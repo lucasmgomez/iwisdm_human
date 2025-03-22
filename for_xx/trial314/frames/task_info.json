@@ -1,0 +1,88 @@
+{
+    "epochs": 8,
+    "objects": [
+        {
+            "location": "(0.267, 0.388)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 1,
+            "object": 23,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.248, 0.245)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 3,
+            "object": 39,
+            "view angle": 0,
+            "epochs": 1,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.403, 0.129)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 5,
+            "object": 60,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.059, 0.588)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 5,
+            "object": 56,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.546, 0.276)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 0,
+            "object": 48,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.065, 0.503)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 0,
+            "object": 48,
+            "view angle": 0,
+            "epochs": 7,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, delay, observe object 4, delay, observe object 5, observe object 6, if category of object 6 equal benches and location of object 3 not equal top left , then location of object 2 not equal location of object 1 , else category of object 4 not equal category of object 5 ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}

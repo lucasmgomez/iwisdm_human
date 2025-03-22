@@ -1,0 +1,74 @@
+{
+    "epochs": 6,
+    "objects": [
+        {
+            "location": "(0.142, 0.642)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 6,
+            "object": 9,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.36, 0.952)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 5,
+            "object": 62,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.099, 0.333)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 3,
+            "object": 33,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.057, 0.926)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 5,
+            "object": 60,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.42, 0.966)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 3,
+            "object": 33,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, observe object 5, if location of object 3 not equal top right or location of object 2 equal top left , then location of object 1 equal top left , else location of object 4 not equal location of object 5 ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

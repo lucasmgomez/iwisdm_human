@@ -1,0 +1,87 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "location": "(0.826, 0.618)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 6,
+            "object": 12,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.003, 0.647)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 0,
+            "object": 55,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.069, 0.279)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 1,
+            "object": 23,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.25, 0.98)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 3,
+            "object": 38,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.181, 0.925)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 3,
+            "object": 34,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.483, 0.053)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 4,
+            "object": 31,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, if category of object 3 not equal boats , then category of object 6 not equal category of object 5 , else category of object 4 equal category of object 1 and category of object 2 not equal tables ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

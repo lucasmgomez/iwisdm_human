@@ -1,0 +1,88 @@
+{
+    "epochs": 8,
+    "objects": [
+        {
+            "location": "(0.905, 0.346)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 1,
+            "object": 19,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.481, 0.953)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 5,
+            "object": 63,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.736, 0.49)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 1,
+            "object": 20,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.817, 0.972)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 3,
+            "object": 33,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.518, 0.902)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 4,
+            "object": 30,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.115, 0.634)",
+            "space": [
+                0,
+                1
+            ],
+            "category": 3,
+            "object": 36,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, if object of object 3 equal object of object 4 , then location of object 1 equal bottom left or location of object 2 equal location of object 5 , else category of object 6 not equal couches ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}

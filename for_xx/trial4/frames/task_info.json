@@ -1,0 +1,87 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "location": "(0.861, 0.016)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 5,
+            "object": 59,
+            "view angle": 0,
+            "epochs": 0,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.525, 0.889)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 5,
+            "object": 63,
+            "view angle": 0,
+            "epochs": 2,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.758, 0.39)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 0,
+            "object": 50,
+            "view angle": 0,
+            "epochs": 3,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.765, 0.37)",
+            "space": [
+                1,
+                0
+            ],
+            "category": 4,
+            "object": 29,
+            "view angle": 0,
+            "epochs": 4,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.92, 0.899)",
+            "space": [
+                1,
+                1
+            ],
+            "category": 5,
+            "object": 60,
+            "view angle": 0,
+            "epochs": 5,
+            "is_distractor": false
+        },
+        {
+            "location": "(0.359, 0.181)",
+            "space": [
+                0,
+                0
+            ],
+            "category": 5,
+            "object": 63,
+            "view angle": 0,
+            "epochs": 6,
+            "is_distractor": false
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, if location of object 1 equal location of object 4 , then location of object 5 not equal bottom left , else location of object 6 equal location of object 3 or location of object 2 equal top left ?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}
