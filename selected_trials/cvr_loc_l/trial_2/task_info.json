@@ -1,0 +1,106 @@
+{
+    "epochs": 6,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.921, 0.011)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 52,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.986, 0.803)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 3,
+                "object": 32,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.167, 0.812)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 2,
+                "object": 47,
+                "view angle": 0,
+                "epochs": 4,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.553, 0.152)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 2,
+                "object": 43,
+                "view angle": 0,
+                "epochs": 5,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "delay, observe object 1, observe object 2, observe object 3, observe object 4, location of object 4 equals location of object 3 and location of object 2 not equals location of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

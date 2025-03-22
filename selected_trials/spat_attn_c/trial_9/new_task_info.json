@@ -1,0 +1,78 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.054, 0.838)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 24,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.578, 0.907)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 3,
+                "object": 33,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.988, 0.422)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 5,
+                "object": 58,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1 with location: bottom left, observe object 2, category of object 2 equals category of object 1?",
+    "answers": [
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A couches located at the bottom left, A chairs located at the bottom right",
+        "Frame 2: A lighting located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with location: bottom left, observe object 2 in frame 2, category of object 2 equals category of object 1?"
+}

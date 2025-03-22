@@ -1,0 +1,53 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.231, 0.303)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 41,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.928, 0.015)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 33,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: cars, location of object 1?",
+    "answers": [
+        "top left"
+    ],
+    "caption": [
+        "Frame 1: A cars located at the top left, A chairs located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: cars, location of object 1?"
+}

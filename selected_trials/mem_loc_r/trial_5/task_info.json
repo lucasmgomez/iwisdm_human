@@ -1,0 +1,33 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.388, 0.121)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 7,
+                "object": 2,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, location of object 1?",
+    "answers": [
+        "null",
+        "top left"
+    ]
+}

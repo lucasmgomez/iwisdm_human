@@ -1,0 +1,73 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.479, 0.282)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 6,
+                "object": 10,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.017, 0.01)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 47,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.934, 0.151)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 5,
+                "object": 58,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2 with category: cars, location of object 2 equals location of object 1?",
+    "answers": [
+        "null",
+        "true"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "epochs": 6,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.789, 0.785)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 4,
+                "object": 24,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, delay, category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "couches"
+    ],
+    "caption": [
+        "Frame 1: A couches located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, delay, category of object 1?"
+}

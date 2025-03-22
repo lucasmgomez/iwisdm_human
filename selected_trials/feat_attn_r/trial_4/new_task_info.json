@@ -1,0 +1,53 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.786, 0.786)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 0,
+                "object": 49,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.497, 0.725)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 2,
+                "object": 44,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: benches, location of object 1?",
+    "answers": [
+        "bottom right"
+    ],
+    "caption": [
+        "Frame 1: A benches located at the bottom right, A cars located at the bottom left"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: benches, location of object 1?"
+}

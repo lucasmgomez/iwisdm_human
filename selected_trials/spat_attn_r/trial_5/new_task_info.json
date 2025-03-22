@@ -1,0 +1,70 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.358, 0.301)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 7,
+                "object": 3,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.487, 0.922)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 5,
+                "object": 63,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.688, 0.569)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 0,
+                "object": 55,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: top left, category of object 1?",
+    "answers": [
+        "tables"
+    ],
+    "caption": [
+        "Frame 1: A tables located at the top left, A lighting located at the bottom left, A benches located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with location: top left, category of object 1?"
+}

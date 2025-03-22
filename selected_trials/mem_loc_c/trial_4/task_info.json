@@ -1,0 +1,59 @@
+{
+    "epochs": 5,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.576, 0.202)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 4,
+                "object": 25,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.229, 0.331)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 0,
+                "object": 48,
+                "view angle": 0,
+                "epochs": 4,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, location of object 1 equals location of object 2?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ]
+}

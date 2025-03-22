@@ -1,0 +1,86 @@
+{
+    "epochs": 4,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.777, 0.351)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 55,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.208, 0.88)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 0,
+                "object": 50,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.882, 0.422)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 9,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.259, 0.576)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 27,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, observe object 4, category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "benches"
+    ]
+}

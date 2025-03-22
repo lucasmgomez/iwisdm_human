@@ -1,0 +1,50 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.73, 0.351)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 5,
+                "object": 61,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.84, 0.134)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 50,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, location of object 1?",
+    "answers": [
+        "null",
+        "top right"
+    ]
+}

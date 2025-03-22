@@ -1,0 +1,78 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.003, 0.575)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 7,
+                "object": 3,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.891, 0.627)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 6,
+                "object": 14,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.202, 0.439)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 3,
+                "object": 37,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1 with category: tables, observe object 2, location of object 2 equals location of object 1?",
+    "answers": [
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A tables located at the bottom left, A planes located at the bottom right",
+        "Frame 2: A chairs located at the top left"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: tables, observe object 2 in frame 2, location of object 2 equals location of object 1?"
+}

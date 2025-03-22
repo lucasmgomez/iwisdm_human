@@ -1,0 +1,38 @@
+{
+    "epochs": 3,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.974, 0.463)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 12,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, delay, category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "planes"
+    ],
+    "caption": [
+        "Frame 1: A planes located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, delay, category of object 1?"
+}

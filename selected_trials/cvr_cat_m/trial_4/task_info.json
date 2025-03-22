@@ -1,0 +1,154 @@
+{
+    "epochs": 8,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.311, 0.045)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 1,
+                "object": 22,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.218, 0.412)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 0,
+                "object": 55,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.943, 0.091)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 12,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.478, 0.134)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 40,
+                "view angle": 0,
+                "epochs": 4,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 5,
+            "obj": {
+                "location": "(0.145, 0.927)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 26,
+                "view angle": 0,
+                "epochs": 6,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 6,
+            "obj": {
+                "location": "(0.642, 0.825)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 2,
+                "object": 41,
+                "view angle": 0,
+                "epochs": 7,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, delay, observe object 3, observe object 4, delay, observe object 5, observe object 6, if category of object 4 equals cars, then category of object 6 not equals category of object 5? else category of object 3 not equals category of object 2 or category of object 1 not equals boats?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}

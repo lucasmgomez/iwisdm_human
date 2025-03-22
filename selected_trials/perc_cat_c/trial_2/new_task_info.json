@@ -1,0 +1,61 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.235, 0.995)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 2,
+                "object": 44,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.93, 0.197)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 2,
+                "object": 43,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, category of object 2 equals category of object 1?",
+    "answers": [
+        "null",
+        "true"
+    ],
+    "caption": [
+        "Frame 1: A cars located at the bottom left",
+        "Frame 2: A cars located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, category of object 2 equals category of object 1?"
+}

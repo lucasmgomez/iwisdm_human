@@ -1,0 +1,53 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.599, 0.865)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 6,
+                "object": 11,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.924, 0.113)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 34,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: planes, location of object 1?",
+    "answers": [
+        "bottom right"
+    ],
+    "caption": [
+        "Frame 1: A planes located at the bottom right, A chairs located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: planes, location of object 1?"
+}

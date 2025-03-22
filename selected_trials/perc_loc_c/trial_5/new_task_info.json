@@ -1,0 +1,61 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.996, 0.168)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 53,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.882, 0.006)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 8,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, location of object 2 equals location of object 1?",
+    "answers": [
+        "null",
+        "true"
+    ],
+    "caption": [
+        "Frame 1: A benches located at the top right",
+        "Frame 2: A planes located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, location of object 2 equals location of object 1?"
+}

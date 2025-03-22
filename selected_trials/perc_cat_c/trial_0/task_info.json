@@ -1,0 +1,56 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.038, 0.613)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 5,
+                "object": 57,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.47, 0.708)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 0,
+                "object": 52,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, category of object 2 equals category of object 1?",
+    "answers": [
+        "null",
+        "false"
+    ]
+}

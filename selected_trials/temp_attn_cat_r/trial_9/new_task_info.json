@@ -1,0 +1,74 @@
+{
+    "epochs": 3,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.301, 0.422)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 5,
+                "object": 59,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.477, 0.986)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 3,
+                "object": 37,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.983, 0.964)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 2,
+                "object": 43,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "lighting"
+    ],
+    "caption": [
+        "Frame 1: A lighting located at the top left",
+        "Frame 2: A chairs located at the bottom left",
+        "Frame 3: A cars located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, observe object 3 in frame 3, category of object 1?"
+}

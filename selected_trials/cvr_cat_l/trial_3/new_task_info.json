@@ -1,0 +1,115 @@
+{
+    "epochs": 6,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.796, 0.365)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 11,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.447, 0.168)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 5,
+                "object": 60,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.589, 0.972)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 1,
+                "object": 21,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.759, 0.823)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 1,
+                "object": 16,
+                "view angle": 0,
+                "epochs": 5,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, delay, observe object 4, category of object 4 not equals category of object 3 and category of object 2 not equals category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A planes located at the top right",
+        "Frame 2: A lighting located at the top left",
+        "Frame 3: A boats located at the bottom right",
+        "Frame 4: delay frame",
+        "Frame 5: delay frame",
+        "Frame 6: A boats located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, observe object 3 in frame 3, delay, observe object 4 in frame 6, category of object 4 not equals category of object 3 and category of object 2 not equals category of object 1?"
+}

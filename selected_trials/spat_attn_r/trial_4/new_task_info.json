@@ -1,0 +1,87 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.925, 0.28)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 2,
+                "object": 44,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.229, 0.797)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 6,
+                "object": 11,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.977, 0.822)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 0,
+                "object": 52,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.296, 0.071)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 6,
+                "object": 13,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: top right, category of object 1?",
+    "answers": [
+        "cars"
+    ],
+    "caption": [
+        "Frame 1: A cars located at the top right, A planes located at the bottom left, A benches located at the bottom right, A planes located at the top left"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with location: top right, category of object 1?"
+}

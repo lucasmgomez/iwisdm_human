@@ -1,0 +1,53 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.935, 0.349)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 1,
+                "object": 22,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.181, 0.834)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 1,
+                "object": 19,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: top right, category of object 1?",
+    "answers": [
+        "boats"
+    ],
+    "caption": [
+        "Frame 1: A boats located at the top right, A boats located at the bottom left"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with location: top right, category of object 1?"
+}

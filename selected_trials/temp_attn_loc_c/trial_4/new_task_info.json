@@ -1,0 +1,99 @@
+{
+    "epochs": 4,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.988, 0.609)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 3,
+                "object": 37,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.049, 0.28)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 6,
+                "object": 14,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.046, 0.153)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 3,
+                "object": 37,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.811, 0.631)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 7,
+                "object": 3,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, observe object 4, location of object 4 equals location of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "true"
+    ],
+    "caption": [
+        "Frame 1: A chairs located at the bottom right",
+        "Frame 2: A planes located at the top left",
+        "Frame 3: A chairs located at the top left",
+        "Frame 4: A tables located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, observe object 3 in frame 3, observe object 4 in frame 4, location of object 4 equals location of object 1?"
+}

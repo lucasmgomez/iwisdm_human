@@ -1,0 +1,158 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.863, 0.887)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 3,
+                "object": 36,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.303, 0.817)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 7,
+                "object": 0,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.697, 0.201)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 39,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.065, 0.431)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 5,
+                "object": 56,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.137, 0.723)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 24,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.053, 0.084)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 1,
+                "object": 18,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.549, 0.011)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 7,
+                "object": 4,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.659, 0.726)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 1,
+                "object": 19,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: bottom right, observe object 2 with location: bottom left, category of object 2 equals category of object 1?",
+    "answers": [
+        "null",
+        "false"
+    ]
+}

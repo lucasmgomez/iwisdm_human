@@ -1,0 +1,66 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.4, 0.27)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 6,
+                "object": 9,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.847, 0.528)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 1,
+                "object": 20,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.719, 0.167)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 49,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: top left, category of object 1?",
+    "answers": [
+        "planes"
+    ]
+}

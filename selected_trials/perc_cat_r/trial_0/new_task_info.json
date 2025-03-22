@@ -1,0 +1,36 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.621, 0.003)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 34,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, category of object 1?",
+    "answers": [
+        "chairs"
+    ],
+    "caption": [
+        "Frame 1: A chairs located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, category of object 1?"
+}

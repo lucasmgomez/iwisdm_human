@@ -1,0 +1,140 @@
+{
+    "epochs": 7,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.317, 0.054)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 43,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.766, 0.293)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 37,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.586, 0.216)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 7,
+                "object": 5,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.338, 0.202)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 1,
+                "object": 20,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 5,
+            "obj": {
+                "location": "(0.994, 0.186)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 52,
+                "view angle": 0,
+                "epochs": 4,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 6,
+            "obj": {
+                "location": "(0.929, 0.861)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 2,
+                "object": 42,
+                "view angle": 0,
+                "epochs": 5,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 7,
+            "obj": {
+                "location": "(0.63, 0.736)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 5,
+                "object": 57,
+                "view angle": 0,
+                "epochs": 6,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, observe object 4, observe object 5, observe object 6, observe object 7, category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "cars"
+    ]
+}

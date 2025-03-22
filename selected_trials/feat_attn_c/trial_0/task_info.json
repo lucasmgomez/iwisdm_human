@@ -1,0 +1,158 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.134, 0.61)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 3,
+                "object": 38,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.359, 0.341)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 0,
+                "object": 55,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.904, 0.347)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 4,
+                "object": 25,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.795, 0.629)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 5,
+                "object": 63,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.42, 0.847)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 1,
+                "object": 23,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.923, 0.191)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 7,
+                "object": 5,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.233, 0.265)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 43,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.527, 0.898)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 6,
+                "object": 12,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: chairs, observe object 2 with category: boats, location of object 2 equals location of object 1?",
+    "answers": [
+        "null",
+        "true"
+    ]
+}

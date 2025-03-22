@@ -1,0 +1,63 @@
+{
+    "epochs": 3,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.494, 0.737)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 27,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.22, 0.891)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 2,
+                "object": 47,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, category of object 1 equals category of object 2?",
+    "answers": [
+        "null",
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A couches located at the bottom left",
+        "Frame 2: delay frame",
+        "Frame 3: A cars located at the bottom left"
+    ],
+    "new_instruction": "observe object 1 in frame 1, delay, observe object 2 in frame 3, category of object 1 equals category of object 2?"
+}

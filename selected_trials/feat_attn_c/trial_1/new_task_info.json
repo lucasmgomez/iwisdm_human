@@ -1,0 +1,129 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.943, 0.502)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 2,
+                "object": 42,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.983, 0.071)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 0,
+                "object": 48,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.016, 0.555)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 1,
+                "object": 16,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.397, 0.761)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 0,
+                "object": 55,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.791, 0.49)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 6,
+                "object": 13,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.551, 0.964)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 4,
+                "object": 30,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: cars, observe object 2 with category: benches, location of object 2 equals location of object 1?",
+    "answers": [
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A cars located at the bottom right, A benches located at the top right, A boats located at the bottom left",
+        "Frame 2: A benches located at the bottom left, A planes located at the top right, A couches located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: cars, observe object 2 in frame 2 with category: benches, location of object 2 equals location of object 1?"
+}

@@ -1,0 +1,66 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.615, 0.684)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 4,
+                "object": 25,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.048, 0.782)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 6,
+                "object": 15,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.788, 0.26)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 36,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with location: bottom right, category of object 1?",
+    "answers": [
+        "couches"
+    ]
+}

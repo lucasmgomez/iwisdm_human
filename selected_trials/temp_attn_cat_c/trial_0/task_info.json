@@ -1,0 +1,149 @@
+{
+    "epochs": 10,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.168, 0.632)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 29,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.261, 0.079)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 2,
+                "object": 46,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 3,
+            "obj": {
+                "location": "(0.702, 0.493)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 5,
+                "object": 58,
+                "view angle": 0,
+                "epochs": 2,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 4,
+            "obj": {
+                "location": "(0.251, 0.776)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 7,
+                "object": 4,
+                "view angle": 0,
+                "epochs": 6,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 5,
+            "obj": {
+                "location": "(0.883, 0.523)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 3,
+                "object": 33,
+                "view angle": 0,
+                "epochs": 7,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 6,
+            "obj": {
+                "location": "(0.84, 0.906)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 6,
+                "object": 12,
+                "view angle": 0,
+                "epochs": 8,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 7,
+            "obj": {
+                "location": "(0.504, 0.716)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 4,
+                "object": 26,
+                "view angle": 0,
+                "epochs": 9,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, observe object 3, delay, observe object 4, observe object 5, observe object 6, observe object 7, category of object 7 equals category of object 1?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "true"
+    ]
+}

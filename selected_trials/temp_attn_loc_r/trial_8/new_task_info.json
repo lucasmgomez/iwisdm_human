@@ -1,0 +1,55 @@
+{
+    "epochs": 2,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.724, 0.416)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 2,
+                "object": 47,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.038, 0.214)",
+                "space": [
+                    0,
+                    0
+                ],
+                "category": 5,
+                "object": 58,
+                "view angle": 0,
+                "epochs": 1,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1, observe object 2, location of object 1?",
+    "answers": [
+        "null",
+        "top right"
+    ],
+    "caption": [
+        "Frame 1: A cars located at the top right",
+        "Frame 2: A lighting located at the top left"
+    ],
+    "new_instruction": "observe object 1 in frame 1, observe object 2 in frame 2, location of object 1?"
+}

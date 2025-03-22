@@ -1,0 +1,65 @@
+{
+    "epochs": 4,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.94, 0.615)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 1,
+                "object": 16,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        },
+        {
+            "count": 2,
+            "obj": {
+                "location": "(0.829, 0.845)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 5,
+                "object": 58,
+                "view angle": 0,
+                "epochs": 3,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "category"
+                ]
+            }
+        }
+    ],
+    "instruction": "observe object 1, delay, observe object 2, category of object 1 equals category of object 2?",
+    "answers": [
+        "null",
+        "null",
+        "null",
+        "false"
+    ],
+    "caption": [
+        "Frame 1: A boats located at the bottom right",
+        "Frame 2: delay frame",
+        "Frame 3: delay frame",
+        "Frame 4: A lighting located at the bottom right"
+    ],
+    "new_instruction": "observe object 1 in frame 1, delay, observe object 2 in frame 4, category of object 1 equals category of object 2?"
+}

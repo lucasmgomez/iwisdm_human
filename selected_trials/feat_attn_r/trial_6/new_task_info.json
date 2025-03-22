@@ -1,0 +1,70 @@
+{
+    "epochs": 1,
+    "objects": [
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.458, 0.864)",
+                "space": [
+                    0,
+                    1
+                ],
+                "category": 4,
+                "object": 24,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": false
+            },
+            "tasks": [
+                0
+            ],
+            "attended_attr": {
+                "0": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.679, 0.93)",
+                "space": [
+                    1,
+                    1
+                ],
+                "category": 0,
+                "object": 48,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        },
+        {
+            "count": 1,
+            "obj": {
+                "location": "(0.513, 0.124)",
+                "space": [
+                    1,
+                    0
+                ],
+                "category": 3,
+                "object": 32,
+                "view angle": 0,
+                "epochs": 0,
+                "is_distractor": true
+            },
+            "tasks": [],
+            "attended_attr": {}
+        }
+    ],
+    "instruction": "observe object 1 with category: couches, location of object 1?",
+    "answers": [
+        "bottom left"
+    ],
+    "caption": [
+        "Frame 1: A couches located at the bottom left, A benches located at the bottom right, A chairs located at the top right"
+    ],
+    "new_instruction": "observe object 1 in frame 1 with category: couches, location of object 1?"
+}
